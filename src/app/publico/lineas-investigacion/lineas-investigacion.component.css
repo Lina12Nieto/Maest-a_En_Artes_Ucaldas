@@ -1,0 +1,168 @@
+.colum {
+    display: flex;
+    flex-direction: column; /* Organiza los divs en una sola columna */
+    align-items: center; /* Los centra horizontalmente */
+}
+
+.col {
+    min-height: 100px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px; /* Agrega un margen entre los divs para separarlos */
+    font-size: 18px; /* Tamaño de fuente para el número */
+    width: 80%;
+}
+
+/* Estilos para cada columna específica */
+.col-1 {
+    background-color: #FF5733;
+    display: flex;
+}
+.bloque1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 300px; /* Establece la altura deseada */
+    background-color: #424242; /* Agrega un color de fondo para que sea visible */
+    width: 100%;
+    margin-top: 10px;
+}
+
+.Titulo {
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    background-color:#424242;
+    width: 50%;
+    height: 180px;
+    border: solid 6px #ffff;
+    color: #ffff;
+    font-size: 80px;
+    font-weight: bold; /* Agrega esta propiedad para hacer el texto negrita */
+}
+.Titulo h1 {
+    display: flex;
+    font-family: fantasy;
+    font-size: 100px;
+    justify-content: center;
+}
+.centered-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.col-2 {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.texto2 {
+    margin: 0; /* Elimina el margen por defecto de los elementos h3 */
+    font-size: 30px;
+}
+
+
+.sub-col-1, .sub-col-3 {
+    background-color: #ccc ; /* Color para la primera columna */
+    width: 100%;
+    height:5px;
+}
+
+.sub-col-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button {
+    margin: 20px; /* Agrega márgenes alrededor del botón */
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+    background-color: #f2f2f2; /* Color de fondo del botón */
+    border: solid 1px #000 ;
+    color: #000; /* Color del texto del botón */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    width: 100%;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: none;
+
+    transition: background-color 0.3s; /* Agregamos una transición para suavizar el cambio de color */
+
+    /* Cambio de color al pasar el cursor sobre el botón */
+    &:hover {
+        background-color: #ccc; /* Nuevo color cuando se pasa el cursor sobre el botón */
+    }
+}
+
+.button-link {
+    display: flex;
+    text-align: center; /* Centra el enlace dentro de la columna */
+    width: 90%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-left {
+    flex: 1;
+    padding: 20px; /* Espaciado interior para la imagen */
+    width: 50%;
+    height: auto;
+}
+
+.col-right {
+    flex: 1;
+    padding: 20px; /* Espaciado interior para el video */
+    width: 50%;
+    height: auto;
+}
+.col-left  img{
+    width: 100%;
+    height: 450px;
+}
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px; /* Espaciado interior para el video */
+}
+
+.Titulo1 {
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    background-color:#424242;
+    width: 70%;
+    height: 180px;
+    border: solid 6px #ffff;
+    color: #ffff;
+    font-size: 70px;
+    font-weight: bold; /* Agrega esta propiedad para hacer el texto negrita */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.Titulo1 h1 {
+    display: flex;
+    font-family: fantasy;
+    font-size: 100px;
+    justify-content: center;
+}
+.Titulo2{
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    background-color:#424242;
+    width: 70%;
+    height: 180px;
+    border: solid 6px #ffff;
+    color: #ffff;
+    font-size: 50px;
+    font-weight: bold; /* Agrega esta propiedad para hacer el texto negrita */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+
+
+/* Estilos adicionales según tus preferencias */

@@ -1,0 +1,31 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    background-color: #424242;
+}
+.imagen {
+    max-width: 100%; /* Opcional: asegura que la imagen no sea más ancha que el contenedor */
+    max-height: 100%; /* Opcional: asegura que la imagen no sea más alta que el contenedor */
+}
+.iconos{
+    width: 500px;
+    height: 60px;
+    text-align: center;
+}
+
+.contenido span {
+    display: block;
+    margin-bottom: 10px; /* Espacio opcional entre cada elemento */
+    text-align: center;
+}
+.titulo h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: -3px;
+    margin-top: -10px;
+}

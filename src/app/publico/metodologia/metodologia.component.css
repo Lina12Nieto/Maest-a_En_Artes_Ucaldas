@@ -1,0 +1,59 @@
+.bloque1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 200px; /* Establece la altura deseada */
+    background-color: #424242; /* Agrega un color de fondo para que sea visible */
+}
+
+.Titulo {
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    background-color:#424242;
+    width: 40%;
+    height: 180px;
+    border: solid 6px #ffff;
+}
+.Titulo h1{
+    display: flex;
+    font-family: fantasy;
+    font-size: 80px;
+    color: #ffff;
+    justify-content: center;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+#row2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#row3 img {
+    width: 100%;
+    height: auto;
+}
+
+.lineas{
+    display: flex;
+    width: 80%;
+    height: 5px;
+    background-color: #8f8c8c;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 868px) {
+    .Titulo h1 {
+        font-size: 50px; /* Tamaño ajustado para pantallas más pequeñas */
+    }
+    .Titulo{
+        height: 130px;
+    }
+    #row2{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,143 @@
+.bloque1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #424242;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.Titulo{
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    background-color:#424242;
+    width: 40%;
+    height: auto;
+    border: solid 6px #fff;
+    color: #ffff;
+    font-size: 60px;
+    font-weight: bold; 
+    justify-content: center;
+}
+.centered-title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+
+.colum {
+    display: flex;
+    flex-direction: column; /* Organiza los divs en una sola columna */
+    align-items: center; /* Los centra horizontalmente */
+}
+
+.col {
+    min-height: 100px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px; /* Agrega un margen entre los divs para separarlos */
+    font-size: 18px; /* Tamaño de fuente para el número */
+    width: 80%;
+    height: auto;
+}
+
+/* Estilos para cada columna específica */
+.centered-text {
+    text-align:justify;/* Centra el texto horizontalmente */
+    margin: 20px; /* Agrega márgenes alrededor del texto */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titleCircle{
+    display: flex;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    color: #000;
+}
+.centered-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.circles-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #FFA500; /* Color de los círculos */
+    justify-content: center; /* Centra horizontalmente el texto dentro del círculo */
+    align-items: center; /* Centra verticalmente el texto dentro del círculo */
+}
+.col-3 , .col-4, .col-5, .col-6,.col-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.split-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circolo-container {
+    width: 15%;
+    display: flex;
+    justify-content: justify;
+    align-items: center;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #FFA500; /* Color de fondo para el círculo */
+    border: solid 2px #000;
+}
+
+.right-side {
+    width: 85%; 
+    padding: 20px;
+}
+.TITULOp{
+    font-size: 60px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+.right-side p {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lineas{
+    display: flex;
+    width: 80%;
+    height: 5px;
+    background-color: #8f8c8c;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .Titulo{
+        font-size: 40px; /* Tamaño ajustado para pantallas más pequeñas */
+    }
+    .TITULOp{
+        font-size: 40px;
+    }
+}

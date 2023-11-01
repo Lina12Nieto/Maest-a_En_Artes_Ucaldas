@@ -1,0 +1,29 @@
+.icon{
+    display: flex;
+    width: 120px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    float: left;
+    
+}
+.colorN{
+    background-color: #424242;
+}
+.logo-title{
+    float: right;
+}
+.container{
+    display: flex;
+    float: left;
+    height: 50px;
+    width: 180px;
+}
+.container span{
+    font-family:Times New Roman, serif;
+    font-size: 30px;
+}
+
+
+

@@ -1,0 +1,103 @@
+.bloque1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 200px; /* Establece la altura deseada */
+    background-color: #424242; /* Agrega un color de fondo para que sea visible */
+}
+
+.Titulo {
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    background-color:#424242;
+    width: 40%;
+    height: 180px;
+    border: solid 6px #ffff;
+}
+.Titulo h1{
+    display: flex;
+    font-family: fantasy;
+    font-size: 80px;
+    color: #ffff;
+    justify-content: center;
+}
+.Informacion{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height:auto; /* Establece la altura deseada */ 
+}
+.Informacion1{
+    display: flex;
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    width: 90%;
+    height: auto;
+}
+.video{
+    display: flex;
+    width: 47%;
+    height: auto;
+    float: left;
+    margin: 20px;
+    margin-top: 100px;
+}
+.texto{
+    display: flex;
+    width: 47%;
+    height: auto;
+    float: right;
+    margin: 20px;
+}
+.texto-container {
+    width: 80%; /* Ajusta el ancho del contenedor según tus preferencias */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.texto-container span {
+    display: block;
+    margin-bottom: 20px; /* Espacio entre los párrafos */
+    text-align: justify;
+}
+.barra {
+    width: 90%; /* Ancho deseado para la barra */
+    margin: 10px; /* Esto centra la barra horizontalmente */
+    text-align: center; /* Esto centra el contenido de la barra horizontalmente */
+    background-color: #939191; /* Cambia el color de fondo según tus preferencias */
+    height: 5px; /* Añade relleno para espaciar el contenido de la barra */
+}
+
+.imagesP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 95%;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.Imagenes {
+    display: flex;
+    text-align: center;
+    width: 90%;
+    height: auto;
+}
+.img1{
+    display: flex;
+    text-align: center;
+    width: 45%;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+.img2{
+    display: flex;
+    text-align: center;
+    width: 45%;
+    height: auto;
+    margin: 30px;
+    float: right;
+}
+.img1 img, .img2 img {
+    width: 100%; /* Establece el ancho deseado para las imágenes */
+    height: auto; /* Establece la altura deseada para las imágenes */
+}
