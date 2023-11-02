@@ -16,6 +16,7 @@ import { PlanEstudiosComponent } from './publico/plan-estudios/plan-estudios.com
 import { ProcesoAdmisionComponent } from './publico/proceso-admision/proceso-admision.component';
 import { TesisComponent } from './publico/tesis/tesis.component';
 import { SeminariosComponent } from './publico/seminarios/seminarios.component';
+import { BlogComponent } from './publico/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SeminariosComponent } from './publico/seminarios/seminarios.component';
     PlanEstudiosComponent,
     ProcesoAdmisionComponent,
     TesisComponent,
-    SeminariosComponent
+    SeminariosComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

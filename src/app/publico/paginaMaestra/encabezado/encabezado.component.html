@@ -1,24 +1,38 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <nav>
-    <div class="nav-wrapper colorN">
+    <div class="nav-wrapper colorN fix">
 
         <div class="logo-container">
             <div class="container">
-                <a routerLink='/inicio'class="brand-logo">
+                <a routerLink='/inicio' class="brand-logo">
                     <img class="icon" src="../../../../assets/images/logo.png" alt="Logo">
                 </a>
             </div>
             <div class="container">
-                <span class="logo-title">MaestriaEnArtesUcaldas</span>
+                <span routerLink='/inicio' class="logo-title">MaestriaEnArtesUcaldas</span>
             </div>
-            
+
         </div>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
                 <a routerLink='/inicio'>Inicio</a>
             </li>
             <li>
-                <a href="#">MAESTRIA</a>
+                <a routerLink='/procesoDeAdmision'>PROCESO ADMISION</a>
+            </li>
+            <li class="maestria"> 
+                <a >MAESTRIA</a>
+                <ul class="opciones left" >
+                    <li class="none">
+                        <a routerLink="/objetivos">OBJETIVOS</a>
+                    </li>
+                    <li class="none">
+                        <a routerLink="/PlanEstudios">PLAN DE ESTUDIOS</a>
+                    </li>
+                    <li class="none">
+                        <a routerLink="/metodologia">METODOLOGIA</a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a routerLink='/lineasInvestigacion'>GRUPOS/LINEASINVESTIGACION</a>
@@ -26,8 +40,16 @@
             <li>
                 <a routerLink='/contacto'>CONTACTO</a>
             </li>
-            <li>
+            <li class="blog">
                 <a routerLink='/blog'>BLOG</a>
+                <ul class="opciones">
+                    <li class="none">
+                        <a routerLink="/seminarios">SEMINARIOS</a>
+                    </li>
+                    <li class="none">
+                        <a routerLink="/tesis">TESIS/INVESTIGACION</a>
+                    </li>
+                </ul>
             </li>
             <li class="espacio"><i class="large material-icons">pageview</i></li>
         </ul>

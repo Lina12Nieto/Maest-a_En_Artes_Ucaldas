@@ -10,6 +10,7 @@ import { PlanEstudiosComponent } from './publico/plan-estudios/plan-estudios.com
 import { ProcesoAdmisionComponent } from './publico/proceso-admision/proceso-admision.component';
 import { SeminariosComponent } from './publico/seminarios/seminarios.component';
 import { TesisComponent } from './publico/tesis/tesis.component';
+import { BlogComponent } from './publico/blog/blog.component';
 
 const routes: Routes = [
   {
@@ -48,6 +49,14 @@ const routes: Routes = [
   {
     path:"tesis",
     component:TesisComponent
+  },
+  {
+    path:"PlanEstudios",
+    component:PlanEstudiosComponent
+  },
+  {
+    path:"blog",
+    component:BlogComponent
   },
   {
     path:"**",

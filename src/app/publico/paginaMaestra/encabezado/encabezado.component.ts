@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./encabezado.component.css']
 })
 export class EncabezadoComponent {
+  showOpciones: boolean = false;
+
 
 }

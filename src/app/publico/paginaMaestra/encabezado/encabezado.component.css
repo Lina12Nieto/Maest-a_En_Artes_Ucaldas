@@ -25,5 +25,32 @@
     font-size: 30px;
 }
 
+/*--------------------------------------------*/
+.none{
+    background-color: rgb(53, 52, 52);
+}
+.opciones {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    display: none; 
+    overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si el contenido supera el ancho máximo */
+}
+.opciones li {
+    display: none;
+}
+.opciones li.none {
+    display: block;
+}
+.opciones.show {
+    display: flex;
+}
+
+.maestria:hover .opciones { 
+    display: flex; 
+}
+.blog:hover .opciones { 
+    display: flex; 
+}
 
 
