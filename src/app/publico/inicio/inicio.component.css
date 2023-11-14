@@ -101,3 +101,42 @@
     width: 100%; /* Establece el ancho deseado para las imágenes */
     height: auto; /* Establece la altura deseada para las imágenes */
 }
+
+
+/* para el carusel de imagenes :))**/
+
+.slider-box{
+    margin: 20px auto 0;
+    width: 40%;
+    height: auto;
+    overflow: hidden;
+}
+
+.slider-box ul{
+   display: flex;
+   padding: 0;
+   width: 500%;
+   animation: slide 10s infinite linear;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}

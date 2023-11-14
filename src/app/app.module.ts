@@ -17,6 +17,8 @@ import { ProcesoAdmisionComponent } from './publico/proceso-admision/proceso-adm
 import { TesisComponent } from './publico/tesis/tesis.component';
 import { SeminariosComponent } from './publico/seminarios/seminarios.component';
 import { BlogComponent } from './publico/blog/blog.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -38,7 +40,10 @@ import { BlogComponent } from './publico/blog/blog.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

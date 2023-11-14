@@ -1,0 +1,86 @@
+
+.bloque1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #424242;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.Titulo{
+    text-align: center; /* Centra el texto horizontalmente dentro del bloque de título */
+    background-color:#424242;
+    width: 40%;
+    height: auto;
+    border: solid 6px #fff;
+    color: #ffff;
+    font-size: 40px;
+    font-weight: bold; 
+    justify-content: center;
+}
+.centered-title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+.nueva-seccion {
+    display: flex;
+    width: 80%;
+    margin: 10px auto; /* Ajusta el margen según tu preferencia */
+    background-color: chartreuse;
+    justify-content: center;
+}
+.TITULOS{
+    font-size: 20PX;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/* styles.css */
+.main-div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    cursor: pointer;
+    width: 300px;
+}
+
+.hidden-div {
+    display: none;
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+}
+
+.boton-container {
+    align-self: flex-end; /* Mover la columna 2 hacia la parte inferior */
+}
+
+.columna1 {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre las columnas */
+}
+
+.columna2 {
+    flex-shrink: 0; /* No se encogerá para dejar espacio para el botón */
+}
+
+.boton {
+    align-self: flex-end; /* Mover el botón hacia la parte inferior */
+}
+
+
+
